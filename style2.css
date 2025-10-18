@@ -1,0 +1,53 @@
+* { 
+  margin: 5px; 
+  padding: 10px; 
+  box-sizing:border-box; 
+  font-family: Segoe UI, Arial; 
+} 
+  body { 
+            background: lightblue; 
+            color: blue; 
+            padding-top:100px; 
+            text-align: center; 
+        } 
+ nav { 
+            position: fixed; 
+            top: 0;  
+            background: orange; 
+            width: 100%; 
+        } 
+ nav ul { 
+            justify-content: center; 
+            list-style: none; 
+            gap: 100px; 
+            display:flex; 
+        } 
+nav a { 
+            color: white; 
+            font-weight: bold; 
+            text-decoration: none; 
+        } 
+table { 
+            margin: 18px auto; 
+            border: 10px solid gray; 
+            border-collapse: collapse; 
+            width: 50%; 
+         
+        } 
+table th { 
+            background-color: orange; 
+            color: white; 
+            font-family: sans serif;
+        } 
+table td {
+  background-color: white;
+  color: orange;
+  border: solid 5px;
+}
+
+#ourmenu { 
+            margin-top: 60px; 
+        } 
+  #contact form { 
+            margin-top: 60px; 
+        } 
